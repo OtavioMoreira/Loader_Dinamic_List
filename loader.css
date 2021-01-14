@@ -1,0 +1,26 @@
+body {
+	background-color: #2962FF;
+	font-family: Arial;
+	text-align: center;
+	color: #fff;
+}
+ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+li {
+	padding: 0 60px;
+}
+h2{
+	margin-bottom: 50px;
+}
+.progress-ring {
+  
+}
+
+.progress-ring__circle {
+  transition: 0.35s stroke-dashoffset;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}
